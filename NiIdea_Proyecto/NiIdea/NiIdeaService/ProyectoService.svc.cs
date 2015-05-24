@@ -7,9 +7,7 @@ using System.ServiceModel;
 using System.Text;
 
 namespace NiIdeaService
-{
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "ProyectoService" en el código, en svc y en el archivo de configuración a la vez.
-    // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione ProyectoService.svc o ProyectoService.svc.cs en el Explorador de soluciones e inicie la depuración.
+{  
     public class ProyectoService : IProyectoService
     {
         private ProyectoDAO proyectoDAO = null;
@@ -22,8 +20,7 @@ namespace NiIdeaService
                 return proyectoDAO;
             }
         }
-
-        
+                
         public Dominio.Proyecto CreaProyecto(string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado)
         {
             Dominio.Proyecto proyectoACrear = new Dominio.Proyecto()
@@ -71,5 +68,7 @@ namespace NiIdeaService
         {
             return ProyectoDAO.ListarTodos().ToList();   
         }
+
+
     }
 }

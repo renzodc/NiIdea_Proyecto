@@ -6,3 +6,11 @@ C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.CodeAnalysisLog.xml
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.lastcodeanalysissucceeded
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.config
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.pdb
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\Iesi.Collections.dll
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
+C:\Users\Jesus\Desktop\ProyectoSD\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache

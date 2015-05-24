@@ -7,23 +7,27 @@ using System.Web;
 namespace NiIdeaService.Dominio
 {
     [DataContract]
-    public class Proyecto
+    public class Monitoreo
     {
         [DataMember]
-        public int codigo_p { get; set; }
-        [DataMember]
-        public string nombre { get; set; }
+        public int codigo_m { get; set; }
+
         [DataMember]
         public DateTime fecha_ini { get; set; }
+
         [DataMember]
         public DateTime fecha_fin { get; set; }
+
         [DataMember]
-        public string responsable { get; set; }
+        public int cantidad_so2 { get; set; }
+
         [DataMember]
-        public string observacion { get; set; }
+        public int cantidad_no2 { get; set; }
+
         [DataMember]
-        public int codigo_c { get; set; }
+        public int cantidad_co2 { get; set; }
+
         [DataMember]
-        public int estado { get; set; }
+        public int codigo_ct { get; set; }
     }
 }

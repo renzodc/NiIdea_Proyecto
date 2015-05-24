@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NiIdeaService"
+                   namespace="NiIdeaService.Dominio"
+                   default-lazy="false">
+  <class name="Monitoreo" table="t_Monitoreo">
+    <id name="codigo_m" column="codigo_m">
+      <generator class="identity" />
+    </id>
+    <property name="fecha_ini" column="fecha_ini" />
+    <property name="fecha_fin" column="fecha_fin" />
+    <property name="cantidad_so2" column="cantidad_so2" />
+    <property name="cantidad_no2" column="cantidad_no2" />
+    <property name="cantidad_co2" column="cantidad_co2" />
+    <property name="codigo_ct" column="codigo_ct" />
+  </class>
+</hibernate-mapping>
+
+

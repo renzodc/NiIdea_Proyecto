@@ -68,17 +68,33 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
+    <Content Include="CotizacionService.svc" />
+    <Content Include="Dominio\Cotizacion.hbm.xml" />
+    <Content Include="Dominio\Monitoreo.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
+    <Content Include="MonitoreoService.svc" />
     <Content Include="ProyectoService.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CotizacionService.svc.cs">
+      <DependentUpon>CotizacionService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Dominio\Cotizacion.cs" />
+    <Compile Include="Dominio\Monitoreo.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
+    <Compile Include="ICotizacionService.cs" />
+    <Compile Include="IMonitoreoService.cs" />
     <Compile Include="IProyectoService.cs" />
+    <Compile Include="MonitoreoService.svc.cs">
+      <DependentUpon>MonitoreoService.svc</DependentUpon>
+    </Compile>
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
+    <Compile Include="Persistencia\CotizacionDAO.cs" />
+    <Compile Include="Persistencia\MonitoreoDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
     <Compile Include="Persistencia\ProyectoDAO.cs" />
     <Compile Include="ProyectoService.svc.cs">
