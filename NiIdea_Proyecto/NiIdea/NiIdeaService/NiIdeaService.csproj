@@ -13,13 +13,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NiIdeaService</RootNamespace>
     <AssemblyName>NiIdeaService</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,12 +49,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Librerias\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.EnterpriseServices" />
@@ -69,12 +70,14 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
     <Content Include="CotizacionService.svc" />
+    <EmbeddedResource Include="Dominio\Responsable.hbm.xml" />
     <Content Include="Dominio\Cotizacion.hbm.xml" />
     <Content Include="Dominio\Monitoreo.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="MonitoreoService.svc" />
     <Content Include="ProyectoService.svc" />
+    <Content Include="ResponsableService.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -85,9 +88,11 @@
     <Compile Include="Dominio\Cotizacion.cs" />
     <Compile Include="Dominio\Monitoreo.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
+    <Compile Include="Dominio\Responsable.cs" />
     <Compile Include="ICotizacionService.cs" />
     <Compile Include="IMonitoreoService.cs" />
     <Compile Include="IProyectoService.cs" />
+    <Compile Include="IResponsableService.cs" />
     <Compile Include="MonitoreoService.svc.cs">
       <DependentUpon>MonitoreoService.svc</DependentUpon>
     </Compile>
@@ -97,8 +102,12 @@
     <Compile Include="Persistencia\MonitoreoDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
     <Compile Include="Persistencia\ProyectoDAO.cs" />
+    <Compile Include="Persistencia\ResponsableDAO.cs" />
     <Compile Include="ProyectoService.svc.cs">
       <DependentUpon>ProyectoService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ResponsableService.svc.cs">
+      <DependentUpon>ResponsableService.svc</DependentUpon>
     </Compile>
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
