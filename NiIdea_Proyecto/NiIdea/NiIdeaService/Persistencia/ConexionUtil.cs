@@ -11,5 +11,11 @@ namespace NiIdeaService.Persistencia
         {
             return "Data Source=(local);Initial Catalog=ProyectoControlAmbiental;Integrated Security=SSPI;";
         }
+
+        public static string ObtenerCadenaRRHH()
+        {
+            return "Data Source=(local);Initial Catalog=BD_RRHH;Integrated Security=SSPI;";
+        }
+
     }
 }

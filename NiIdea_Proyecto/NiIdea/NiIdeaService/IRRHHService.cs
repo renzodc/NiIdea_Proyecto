@@ -10,7 +10,7 @@ namespace NiIdeaService
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "IResponsableService" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
-    public interface IResponsableService
+    public interface IRRHHService
     {
         [OperationContract]
         Responsable ObtenerResponsable(int codigo);

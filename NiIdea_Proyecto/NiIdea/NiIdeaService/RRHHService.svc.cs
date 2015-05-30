@@ -11,7 +11,7 @@ namespace NiIdeaService
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "ResponsableService" en el código, en svc y en el archivo de configuración a la vez.
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione ResponsableService.svc o ResponsableService.svc.cs en el Explorador de soluciones e inicie la depuración.
-    public class ResponsableService : IResponsableService
+    public class ResponsableService : IRRHHService
     {
         private ResponsableDAO responsableDAO = null;
         private ResponsableDAO ResponsableDAO

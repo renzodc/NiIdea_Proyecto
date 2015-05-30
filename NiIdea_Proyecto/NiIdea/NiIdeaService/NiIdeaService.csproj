@@ -70,14 +70,16 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
     <Content Include="CotizacionService.svc" />
-    <EmbeddedResource Include="Dominio\Responsable.hbm.xml" />
+    <EmbeddedResource Include="Dominio\Responsable.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <Content Include="Dominio\Cotizacion.hbm.xml" />
     <Content Include="Dominio\Monitoreo.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="MonitoreoService.svc" />
     <Content Include="ProyectoService.svc" />
-    <Content Include="ResponsableService.svc" />
+    <Content Include="RRHHService.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,7 +94,7 @@
     <Compile Include="ICotizacionService.cs" />
     <Compile Include="IMonitoreoService.cs" />
     <Compile Include="IProyectoService.cs" />
-    <Compile Include="IResponsableService.cs" />
+    <Compile Include="IRRHHService.cs" />
     <Compile Include="MonitoreoService.svc.cs">
       <DependentUpon>MonitoreoService.svc</DependentUpon>
     </Compile>
@@ -106,8 +108,8 @@
     <Compile Include="ProyectoService.svc.cs">
       <DependentUpon>ProyectoService.svc</DependentUpon>
     </Compile>
-    <Compile Include="ResponsableService.svc.cs">
-      <DependentUpon>ResponsableService.svc</DependentUpon>
+    <Compile Include="RRHHService.svc.cs">
+      <DependentUpon>RRHHService.svc</DependentUpon>
     </Compile>
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
