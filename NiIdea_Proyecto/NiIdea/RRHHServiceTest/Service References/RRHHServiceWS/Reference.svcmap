@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c5255121-c8b2-4570-8bbf-84dfa10eb73b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46114/RRHHService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RRHHService.xsd" MetadataType="Schema" ID="79685f32-f38c-46f3-928e-c980fb8e022a" SourceId="1" SourceUrl="http://localhost:46114/RRHHService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RRHHService.disco" MetadataType="Disco" ID="aabb1c1f-afa3-4e84-aff0-1feec760457a" SourceId="1" SourceUrl="http://localhost:46114/RRHHService.svc?disco" />
+    <MetadataFile FileName="RRHHService1.xsd" MetadataType="Schema" ID="ad69646d-2289-44aa-99b9-73f5f5b6505a" SourceId="1" SourceUrl="http://localhost:46114/RRHHService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ResponsableService.wsdl" MetadataType="Wsdl" ID="19154708-f66d-431f-90ea-bdd7c62ccd5b" SourceId="1" SourceUrl="http://localhost:46114/RRHHService.svc?wsdl" />
+    <MetadataFile FileName="RRHHService2.xsd" MetadataType="Schema" ID="ff33d03e-11d8-493d-bbef-3c5db191d778" SourceId="1" SourceUrl="http://localhost:46114/RRHHService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
