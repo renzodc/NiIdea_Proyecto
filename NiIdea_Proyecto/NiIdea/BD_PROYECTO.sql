@@ -69,8 +69,8 @@ SET ANSI_PADDING OFF
 GO
 
 
-
-/****** Object:  Table [dbo].[t_Cliente]    Script Date: 05/21/2015 17:01:46 ******/
+/*
+/****** Object:  Table [dbo].[t_Cliente]    Script Date: 05/21/2015 17:01:46 *****
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -91,3 +91,4 @@ CREATE TABLE [dbo].[t_Cliente](
 GO
 SET ANSI_PADDING OFF
 GO
+*/
