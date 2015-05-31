@@ -11,7 +11,7 @@ namespace NiIdeaService
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "COMERCIALService" en el código, en svc y en el archivo de configuración a la vez.
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione COMERCIALService.svc o COMERCIALService.svc.cs en el Explorador de soluciones e inicie la depuración.
-    public class COMERCIALService : ICOMERCIALService
+    public class ComercialService : IComercialService
     {
         private ClienteDAO clienteDAO = null;
         private ClienteDAO ClienteDAO

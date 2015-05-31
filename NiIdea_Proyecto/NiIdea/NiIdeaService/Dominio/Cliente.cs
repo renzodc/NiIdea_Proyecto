@@ -12,14 +12,18 @@ namespace NiIdeaService.Dominio
         [DataMember]
         public int Codigo { get; set; }
         [DataMember]
-        public string Nombre { get; set; }
+        public string Ruc { get; set; }
+        [DataMember]
+        public string RazonSocial { get; set; }
         [DataMember]
         public string Direccion { get; set; }
         [DataMember]
         public string Correo { get; set; }
         [DataMember]
         public string Telefono { get; set; }
-        [DataMember]
-        public string Ruc { get; set; }
+        
+
+        
+
     }
 }

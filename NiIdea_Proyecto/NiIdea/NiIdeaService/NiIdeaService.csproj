@@ -69,7 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
-    <Content Include="COMERCIALService.svc" />
+    <Content Include="ComercialService.svc" />
     <Content Include="CotizacionService.svc" />
     <EmbeddedResource Include="Dominio\Responsable.hbm.xml">
       <SubType>Designer</SubType>
@@ -86,8 +86,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="COMERCIALService.svc.cs">
-      <DependentUpon>COMERCIALService.svc</DependentUpon>
+    <Compile Include="ComercialService.svc.cs">
+      <DependentUpon>ComercialService.svc</DependentUpon>
     </Compile>
     <Compile Include="CotizacionService.svc.cs">
       <DependentUpon>CotizacionService.svc</DependentUpon>
@@ -97,7 +97,7 @@
     <Compile Include="Dominio\Monitoreo.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
     <Compile Include="Dominio\Responsable.cs" />
-    <Compile Include="ICOMERCIALService.cs" />
+    <Compile Include="IComercialService.cs" />
     <Compile Include="ICotizacionService.cs" />
     <Compile Include="IMonitoreoService.cs" />
     <Compile Include="IProyectoService.cs" />

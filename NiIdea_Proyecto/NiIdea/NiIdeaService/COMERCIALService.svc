@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="NiIdeaService.COMERCIALService" CodeBehind="COMERCIALService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="NiIdeaService.ComercialService" CodeBehind="ComercialService.svc.cs" %>

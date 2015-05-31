@@ -13,11 +13,11 @@ SET ANSI_PADDING ON
 GO
 CREATE TABLE [dbo].[t_Cliente](
 	[codigo] [int] IDENTITY(1,1) NOT NULL,
-	[nombre] [varchar](50) NULL,
+	[ruc] [varchar](20) NULL,
+	[razonSocial] [varchar](50) NULL,
 	[direccion] [varchar](50) NULL,
 	[correo] [varchar](50) NULL,
 	[telefono] [varchar](20) NULL,
-	[ruc] [varchar](20) NULL,
  CONSTRAINT [PK_t_Cliente] PRIMARY KEY CLUSTERED 
 (
 	[codigo] ASC
@@ -28,10 +28,10 @@ SET ANSI_PADDING OFF
 GO
 
 
-insert into dbo.t_Cliente values('Sedapal','Av. las lomas 348','sedapal@sdp.com','123-5151','12345678685')
-insert into dbo.t_Cliente values('Gloria','Av. mariscal 547','gloria@gloria.com','456-5050','78945612698')
-insert into dbo.t_Cliente values('Aje','calle la union 123','servicio@aje.com','987-4550','90704561225')
-insert into dbo.t_Cliente values('Municipalidad de Lima','Jr. Este 133','municipalida@lima.com','001-5030','20508674905')
+insert into dbo.t_Cliente(ruc,razonSocial,direccion,correo,telefono) values('20123456789','Sedapal','Av. las lomas 348','sedapal@sdp.com','123-5151')
+insert into dbo.t_Cliente(ruc,razonSocial,direccion,correo,telefono) values('30123456789','Gloria','Av. mariscal 547','gloria@gloria.com','456-5050')
+insert into dbo.t_Cliente(ruc,razonSocial,direccion,correo,telefono) values('40123456789','Aje','calle la union 123','servicio@aje.com','987-4550')
+insert into dbo.t_Cliente(ruc,razonSocial,direccion,correo,telefono) values('50123456789','Municipalidad de Lima','Jr. Este 133','municipalida@lima.com','001-5030')
 
 
 select * from dbo.t_Cliente

@@ -7,7 +7,7 @@
 		<id name="Codigo" column="codigo">
 			<generator class="identity" />
 		</id>
-		<property name="Nombre" column="nombre" />
+		<property name="RazonSocial" column="razonSocial" />
 		<property name="Direccion" column="direccion" />
 		<property name="Correo" column="correo" />
 		<property name="Telefono" column="Telefono" />

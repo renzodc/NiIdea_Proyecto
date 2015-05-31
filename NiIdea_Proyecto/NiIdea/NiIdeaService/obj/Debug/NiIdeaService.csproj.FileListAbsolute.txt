@@ -21,3 +21,11 @@ C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaSer
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.config
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.pdb
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\Iesi.Collections.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb

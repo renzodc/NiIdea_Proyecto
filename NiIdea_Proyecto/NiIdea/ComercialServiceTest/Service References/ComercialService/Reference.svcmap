@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ea71730a-899d-4b6a-b0a4-9b0806ac9d9d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46114/ComercialService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ComercialService.wsdl" MetadataType="Wsdl" ID="1f66d52d-13df-48e5-b5da-ad2ccbc84e1e" SourceId="1" SourceUrl="http://localhost:46114/ComercialService.svc?wsdl" />
+    <MetadataFile FileName="ComercialService.disco" MetadataType="Disco" ID="3c49cdd2-e41f-4cae-a4d7-89b25405554b" SourceId="1" SourceUrl="http://localhost:46114/ComercialService.svc?disco" />
+    <MetadataFile FileName="ComercialService.xsd" MetadataType="Schema" ID="2712a2c5-53de-4d90-b3f0-a989269198ac" SourceId="1" SourceUrl="http://localhost:46114/ComercialService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ComercialService1.xsd" MetadataType="Schema" ID="485fb3d2-60d5-4779-9e11-d2995e9488b9" SourceId="1" SourceUrl="http://localhost:46114/ComercialService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ComercialService2.xsd" MetadataType="Schema" ID="304f6a94-cdcf-4b9e-8497-b7939d4acc39" SourceId="1" SourceUrl="http://localhost:46114/ComercialService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

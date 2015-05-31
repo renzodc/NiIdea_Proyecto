@@ -1,0 +1,6 @@
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.pdb
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.csprojResolveAssemblyReference.cache
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.pdb
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.dll.config
