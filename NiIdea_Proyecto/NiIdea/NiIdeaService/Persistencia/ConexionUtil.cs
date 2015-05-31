@@ -17,5 +17,11 @@ namespace NiIdeaService.Persistencia
             return "Data Source=(local);Initial Catalog=BD_RRHH;Integrated Security=SSPI;";
         }
 
+        public static string ObtenerCadenaCOMERCIAL()
+        {
+            return "Data Source=(local);Initial Catalog=BD_COMERCIAL;Integrated Security=SSPI;";
+        }
+
+
     }
 }

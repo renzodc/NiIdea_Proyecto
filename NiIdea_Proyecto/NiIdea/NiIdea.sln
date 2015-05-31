@@ -8,6 +8,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRHHServiceTest", "RRHHServ
 		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A} = {86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercialTest", "ComercialTest\ComercialTest.csproj", "{17183FFE-63AC-46F6-A17C-0616B61EED1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86B9E59B-37BA-4F12-88DF-7D19EFD9F72A} = {86B9E59B-37BA-4F12-88DF-7D19EFD9F72A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +27,10 @@ Global
 		{C8D47010-650D-48A7-8B80-E77B317BE975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8D47010-650D-48A7-8B80-E77B317BE975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8D47010-650D-48A7-8B80-E77B317BE975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17183FFE-63AC-46F6-A17C-0616B61EED1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17183FFE-63AC-46F6-A17C-0616B61EED1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17183FFE-63AC-46F6-A17C-0616B61EED1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17183FFE-63AC-46F6-A17C-0616B61EED1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

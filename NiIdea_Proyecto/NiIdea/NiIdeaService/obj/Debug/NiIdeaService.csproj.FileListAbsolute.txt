@@ -20,3 +20,4 @@ C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaSer
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache

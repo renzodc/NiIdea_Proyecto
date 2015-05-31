@@ -69,10 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
+    <Content Include="COMERCIALService.svc" />
     <Content Include="CotizacionService.svc" />
     <EmbeddedResource Include="Dominio\Responsable.hbm.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dominio\Cliente.hbm.xml" />
     <Content Include="Dominio\Cotizacion.hbm.xml" />
     <Content Include="Dominio\Monitoreo.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
@@ -84,13 +86,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="COMERCIALService.svc.cs">
+      <DependentUpon>COMERCIALService.svc</DependentUpon>
+    </Compile>
     <Compile Include="CotizacionService.svc.cs">
       <DependentUpon>CotizacionService.svc</DependentUpon>
     </Compile>
+    <Compile Include="Dominio\Cliente.cs" />
     <Compile Include="Dominio\Cotizacion.cs" />
     <Compile Include="Dominio\Monitoreo.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
     <Compile Include="Dominio\Responsable.cs" />
+    <Compile Include="ICOMERCIALService.cs" />
     <Compile Include="ICotizacionService.cs" />
     <Compile Include="IMonitoreoService.cs" />
     <Compile Include="IProyectoService.cs" />
@@ -99,6 +106,7 @@
       <DependentUpon>MonitoreoService.svc</DependentUpon>
     </Compile>
     <Compile Include="Persistencia\BaseDAO.cs" />
+    <Compile Include="Persistencia\ClienteDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\CotizacionDAO.cs" />
     <Compile Include="Persistencia\MonitoreoDAO.cs" />

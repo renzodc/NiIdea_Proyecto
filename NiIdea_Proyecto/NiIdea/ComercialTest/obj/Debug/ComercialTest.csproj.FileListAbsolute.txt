@@ -1,0 +1,6 @@
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\bin\Debug\ComercialTest.dll.config
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\bin\Debug\ComercialTest.dll
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\bin\Debug\ComercialTest.pdb
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\obj\Debug\ComercialTest.csprojResolveAssemblyReference.cache
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\obj\Debug\ComercialTest.dll
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialTest\obj\Debug\ComercialTest.pdb
