@@ -19,6 +19,11 @@ namespace NiIdeaService
         [OperationContract]
         List<Cliente> ListarClientes();
 
+        [OperationContract]
+        List<Servicio> listarServicio();
+
+        [OperationContract]
+        Servicio obtenerServicio(int codigo);
 
     }
 }

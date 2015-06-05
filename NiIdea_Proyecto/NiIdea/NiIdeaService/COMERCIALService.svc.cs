@@ -13,6 +13,8 @@ namespace NiIdeaService
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione COMERCIALService.svc o COMERCIALService.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class ComercialService : IComercialService
     {
+
+        #region ClienteDAO
         private ClienteDAO clienteDAO = null;
         private ClienteDAO ClienteDAO
         {
@@ -35,5 +37,36 @@ namespace NiIdeaService
             //throw new NotImplementedException();
             return ClienteDAO.ListarTodos().ToList();
         }
+
+        #endregion 
+
+         #region ServicioDAO
+
+        private ServicioDAO servicioDAO = null;
+        private ServicioDAO ServicioDAO
+        {
+            get
+            {
+                if (servicioDAO == null)
+                    servicioDAO = new ServicioDAO();
+                return servicioDAO;
+            }
+        }
+
+        public List<Servicio> listarServicio()
+        {
+            return servicioDAO.ListarTodos().ToList();
+
+        }
+
+
+        public Servicio obtenerServicio(int codigo)
+        {
+            return servicioDAO.Obtener(codigo);
+        }
+
+        #endregion
+
+
     }
 }

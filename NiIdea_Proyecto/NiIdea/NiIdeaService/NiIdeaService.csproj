@@ -77,6 +77,7 @@
     <EmbeddedResource Include="Dominio\Cliente.hbm.xml" />
     <Content Include="Dominio\Cotizacion.hbm.xml" />
     <Content Include="Dominio\Monitoreo.hbm.xml" />
+    <Content Include="Dominio\Servicio.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="MonitoreoService.svc" />
@@ -97,6 +98,7 @@
     <Compile Include="Dominio\Monitoreo.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
     <Compile Include="Dominio\Responsable.cs" />
+    <Compile Include="Dominio\Servicio.cs" />
     <Compile Include="IComercialService.cs" />
     <Compile Include="ICotizacionService.cs" />
     <Compile Include="IMonitoreoService.cs" />
@@ -113,6 +115,7 @@
     <Compile Include="Persistencia\NHibernateHelper.cs" />
     <Compile Include="Persistencia\ProyectoDAO.cs" />
     <Compile Include="Persistencia\ResponsableDAO.cs" />
+    <Compile Include="Persistencia\ServicioDAO.cs" />
     <Compile Include="ProyectoService.svc.cs">
       <DependentUpon>ProyectoService.svc</DependentUpon>
     </Compile>
