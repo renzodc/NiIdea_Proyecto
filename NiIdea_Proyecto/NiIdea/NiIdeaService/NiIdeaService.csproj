@@ -70,6 +70,10 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
     <Content Include="ComercialService.svc" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="CotizacionService.svc" />
     <EmbeddedResource Include="Dominio\Responsable.hbm.xml">
       <SubType>Designer</SubType>
@@ -78,11 +82,30 @@
     <Content Include="Dominio\Cotizacion.hbm.xml" />
     <Content Include="Dominio\Monitoreo.hbm.xml" />
     <Content Include="Dominio\Servicio.hbm.xml" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Icon.png" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="MonitoreoService.svc" />
+    <Content Include="Presentacion\ListarProyecto.aspx" />
+    <Content Include="Presentacion\RegistrarCotizacion.aspx" />
+    <Content Include="Presentacion\RegistrarMonitoreo.aspx" />
+    <Content Include="Presentacion\RegistrarProyecto.aspx" />
     <Content Include="ProyectoService.svc" />
     <Content Include="RRHHService.svc" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\npm.js" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -116,6 +139,34 @@
     <Compile Include="Persistencia\ProyectoDAO.cs" />
     <Compile Include="Persistencia\ResponsableDAO.cs" />
     <Compile Include="Persistencia\ServicioDAO.cs" />
+    <Compile Include="Presentacion\ListarProyecto.aspx.cs">
+      <DependentUpon>ListarProyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\ListarProyecto.aspx.designer.cs">
+      <DependentUpon>ListarProyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarCotizacion.aspx.cs">
+      <DependentUpon>RegistrarCotizacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarCotizacion.aspx.designer.cs">
+      <DependentUpon>RegistrarCotizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarMonitoreo.aspx.cs">
+      <DependentUpon>RegistrarMonitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarMonitoreo.aspx.designer.cs">
+      <DependentUpon>RegistrarMonitoreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarProyecto.aspx.cs">
+      <DependentUpon>RegistrarProyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\RegistrarProyecto.aspx.designer.cs">
+      <DependentUpon>RegistrarProyecto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ProyectoService.svc.cs">
       <DependentUpon>ProyectoService.svc</DependentUpon>
     </Compile>
@@ -132,6 +183,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
