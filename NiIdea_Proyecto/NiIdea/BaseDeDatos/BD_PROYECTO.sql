@@ -14,6 +14,8 @@ CREATE TABLE [dbo].[t_Proyecto](
 	[observacion] [varchar](50) NULL,
 	[codigo_c] [int] NULL,
 	[estado] [int] NULL,
+	estadoCierre bit null,
+	descCierre varchar(200) null
  CONSTRAINT [PK_t_Proyecto] PRIMARY KEY CLUSTERED 
 (
 	[codigo_p] ASC
