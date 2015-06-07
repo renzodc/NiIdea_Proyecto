@@ -37,3 +37,11 @@ C:\Users\Jesus\Desktop\last\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService
 C:\Users\Jesus\Desktop\last\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache
 C:\Users\Jesus\Desktop\last\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
 C:\Users\Jesus\Desktop\last\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.config
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.pdb
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\Iesi.Collections.dll
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.csprojResolveAssemblyReference.cache
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
+C:\Users\Jesus\Desktop\last2\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
