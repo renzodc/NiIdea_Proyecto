@@ -20,8 +20,8 @@ namespace NiIdeaService
                 return proyectoDAO;
             }
         }
-                
-        public Dominio.Proyecto CreaProyecto(string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado)
+
+        public Dominio.Proyecto CreaProyecto(string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado, bool cierreProyecto, string detalleProyecto)
         {
             Dominio.Proyecto proyectoACrear = new Dominio.Proyecto()
             {
@@ -32,7 +32,10 @@ namespace NiIdeaService
                 responsable=responsable,
                 observacion=observacion,
                 codigo_c=codigo_c,
-                estado = estado
+                estado = estado,
+                cierreProyecto = cierreProyecto,
+                detalleProyecto = detalleProyecto
+
             };
             return ProyectoDAO.Crear(proyectoACrear);  
         }
@@ -42,7 +45,7 @@ namespace NiIdeaService
             return ProyectoDAO.Obtener(codigo_p);  
         }
 
-        public Dominio.Proyecto ModificaProyecto(int codigo_p, string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado)
+        public Dominio.Proyecto ModificaProyecto(int codigo_p, string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado, bool cierreProyecto, string detalleProyecto)
         {
             Dominio.Proyecto proyectoAModificar = new Dominio.Proyecto()
             {
@@ -53,7 +56,9 @@ namespace NiIdeaService
                 responsable=responsable,
                 observacion = observacion,
                 codigo_c = codigo_c,
-                estado =estado
+                estado =estado,
+                cierreProyecto = cierreProyecto,
+                detalleProyecto = detalleProyecto
             };
             return ProyectoDAO.Modificar(proyectoAModificar);  
         }

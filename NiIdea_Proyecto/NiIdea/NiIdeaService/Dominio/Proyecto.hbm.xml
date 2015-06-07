@@ -14,6 +14,9 @@
 		<property name="observacion" column="observacion" />
 		<property name="codigo_c" column="codigo_c" />
 		<property name="estado" column="estado" />
+    <property name="cierreProyecto" column="estadoCierre" />
+    <property name="detalleProyecto" column="descCierre " />
+    
 		<!--
     <property name="Correo" column="correo" />
     <many-to-one name="Sede" column="sede" />

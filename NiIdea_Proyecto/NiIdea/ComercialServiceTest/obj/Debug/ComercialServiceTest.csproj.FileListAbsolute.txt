@@ -4,3 +4,9 @@ D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\
 D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.dll
 D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.pdb
 D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.dll.config
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.dll.config
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.dll
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\bin\Debug\ComercialServiceTest.pdb
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.dll
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\ComercialServiceTest\obj\Debug\ComercialServiceTest.pdb

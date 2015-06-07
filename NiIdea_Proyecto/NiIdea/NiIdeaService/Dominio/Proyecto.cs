@@ -25,5 +25,9 @@ namespace NiIdeaService.Dominio
         public int codigo_c { get; set; }
         [DataMember]
         public int estado { get; set; }
+        [DataMember]
+        public bool cierreProyecto { get; set; }
+        [DataMember]
+        public string detalleProyecto { get; set; }
     }
 }
