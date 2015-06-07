@@ -107,6 +107,7 @@
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="MonitoreoService.svc" />
+    <Content Include="Presentacion\ListarCierreProyecto.aspx" />
     <Content Include="Presentacion\ListarProyecto.aspx" />
     <Content Include="Presentacion\RegistrarCotizacion.aspx" />
     <Content Include="Presentacion\RegistrarMonitoreo.aspx" />
@@ -168,6 +169,13 @@
     <Compile Include="Persistencia\ProyectoDAO.cs" />
     <Compile Include="Persistencia\ResponsableDAO.cs" />
     <Compile Include="Persistencia\ServicioDAO.cs" />
+    <Compile Include="Presentacion\ListarCierreProyecto.aspx.cs">
+      <DependentUpon>ListarCierreProyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\ListarCierreProyecto.aspx.designer.cs">
+      <DependentUpon>ListarCierreProyecto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\ListarProyecto.aspx.cs">
       <DependentUpon>ListarProyecto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

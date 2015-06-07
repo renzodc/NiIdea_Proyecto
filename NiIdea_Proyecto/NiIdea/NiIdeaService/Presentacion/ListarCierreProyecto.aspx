@@ -1,10 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListarProyecto.aspx.cs" Inherits="NiIdeaService.Presentacion.ListarProyecto" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListarCierreProyecto.aspx.cs" Inherits="NiIdeaService.Presentacion.ListarCierreProyecto" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Bootstrap Admin Template : Binary Admin</title>
@@ -22,6 +21,27 @@
 
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+      <style type="text/css">
+          .auto-style1 {
+              width: 41px;
+          }
+          .auto-style3 {
+              width: 49px;
+          }
+          .auto-style4 {
+              width: 128px;
+          }
+          .auto-style5 {
+              width: 75px;
+          }
+          .auto-style6 {
+              width: 23px;
+          }
+          .auto-style7 {
+              width: 22px;
+          }
+      </style>
 
 </head>
 
@@ -57,18 +77,18 @@ font-size: 16px;"><!-- Last access : 30 May 2014 &nbsp; --><a href="#" class="bt
 									
                     <li>
                         <a  href="RegistrarProyecto.aspx"><i class="fa fa-dashboard fa-3x"></i> Proyecto</a>
-                    </li> 
+                    </li>
                      <li>
                         <a  href="RegistrarCotizacion.aspx"><i class="fa fa-desktop fa-3x"></i>Cotización</a>
                     </li>
                     <li>
                         <a  href="RegistrarMonitoreo.aspx"><i class="fa fa-qrcode fa-3x"></i>Monitoreo</a>
                     </li>
-					    <li  >
-                        <a   href="chart.html"><i class="fa fa-bar-chart-o fa-3x"></i>Cierre</a>
+						   <li  >
+                        <a  class="active-menu" href="ListarCierreProyecto.aspx"><i class="fa fa-bar-chart-o fa-3x"></i>Cierre</a>
                     </li>	
                       <li  >
-                        <a  class="active-menu" href="ListarProyecto.aspx"><i class="fa fa-table fa-3x"></i>Cartera de Proyectos</a>
+                        <a   href="ListarProyecto.aspx"><i class="fa fa-table fa-3x"></i>Cartera de Proyectos</a>
                     </li>
                     <li  >
                         <a  href="form.html"><i class="fa fa-edit fa-3x"></i>Page02</a>
@@ -118,105 +138,152 @@ font-size: 16px;"><!-- Last access : 30 May 2014 &nbsp; --><a href="#" class="bt
 
                 <div class="row">
                     <div class="col-md-12">
-                     <h2>Proyectos Activos</h2>   
+                     <h2>Cierre de Proyecto</h2>   
                         <h5></h5>
                     </div>
                 </div>         
                 
                 <div>
+
+                    <!--AGREGANDO UNA NUEVA GRILLA-->
+                    <!-- comentado!!!
+                    <div>
+                        <asp:Button ID="btnListarCierreProyecto"  Text="Listar" />
+                        <asp:GridView ID="GridView1"  CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False">
+                            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                            <Columns>
+                                <asp:BoundField DataField="codigo_p" HeaderText="Codigo" />
+                                <asp:BoundField DataField="nombre" HeaderText="Nombre" />
+                                <asp:BoundField DataField="fecha_ini" DataFormatString="dd/mm/yyyy" HeaderText="Fecha Ini" />
+                                <asp:BoundField DataField="fecha_fin" DataFormatString="dd/mm/yyyy" HeaderText="Fecha Fin" />
+                                <asp:BoundField DataField="responsable" HeaderText="Responsable" />
+                                <asp:BoundField DataField="observacion" HeaderText="Observacion" />
+                                <asp:BoundField DataField="estadoCierre" HeaderText="Estado" />
+                                <asp:BoundField DataField="descCierre" HeaderText="Detalle" />
+                            </Columns>
+                            <EditRowStyle BackColor="#999999" />
+                            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                            <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                            <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                            <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                            <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                        </asp:GridView>
+
+
+                    </div>
+                    -->
+
+                    
+
                     <div class="col-md-6">
                        
+                      
                         <div class="col-md-12">
                     <!-- Advanced Tables -->
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                             Proyectos Activos
+                             Lista de Proyectos
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
                                 <div id="dataTables-example_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="dataTables-example_length"><label><select name="dataTables-example_length" aria-controls="dataTables-example" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> records per page</label></div></div><div class="col-sm-6"><div id="dataTables-example_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" aria-controls="dataTables-example"></label></div></div></div><table class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example" aria-describedby="dataTables-example_info">
                                     <thead>
-                                        <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column ascending" style="width: 130px;">Nombre</th><th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 203px;">Cliente</th><th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 184px;">Fecha Inicio</th><th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 108px;">Acciones</th><th class="sorting" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 76px;">A</th></tr>
+                                        <tr role="row">
+                                            <th class="auto-style3" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column ascending">Nombre</th>
+                                            <th class="auto-style1" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Cliente</th>
+                                            <th class="auto-style4" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">Fecha Inicio</th>
+                                            <th class="auto-style5" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">Fecha Fin</th>
+                                            <th class="auto-style6" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Est</th>
+                                            <!--
+                                            <th class="auto-style7" tabindex="0" aria-controls="dataTables-example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Detalle</th>
+                                            -->
+
+                                        </tr>
                                     </thead>
                                     <tbody>
                                         
                                         
                                         
                                         
-                                        
+                                     
                                     <tr class="gradeA odd">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Firefox 1.0</td>
-                                            <td class=" ">Win 98+ / OSX.2+</td>
-                                            <td class="center ">1.7</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Firefox 1.0</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA even">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Firefox 1.5</td>
-                                            <td class=" ">Win 98+ / OSX.2+</td>
-                                            <td class="center ">1.8</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Firefox 1.5</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">0</td>
                                         </tr><tr class="gradeA odd">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Firefox 2.0</td>
-                                            <td class=" ">Win 98+ / OSX.2+</td>
-                                            <td class="center ">1.8</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Firefox 2.0</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA even">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Firefox 3.0</td>
-                                            <td class=" ">Win 2k+ / OSX.3+</td>
-                                            <td class="center ">1.9</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Firefox 3.0</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">0</td>
                                         </tr><tr class="gradeA odd">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Camino 1.0</td>
-                                            <td class=" ">OSX.2+</td>
-                                            <td class="center ">1.8</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Camino 1.0</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA even">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Camino 1.5</td>
-                                            <td class=" ">OSX.3+</td>
-                                            <td class="center ">1.8</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Camino 1.5</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">0</td>
                                         </tr><tr class="gradeA odd">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Netscape 7.2</td>
-                                            <td class=" ">Win 95+ / Mac OS 8.6-9.2</td>
-                                            <td class="center ">1.7</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Netscape 7.2</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA even">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Netscape Browser 8</td>
-                                            <td class=" ">Win 98SE+</td>
-                                            <td class="center ">1.7</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Netscape Browser 8</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA odd">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Netscape Navigator 9</td>
-                                            <td class=" ">Win 98+ / OSX.2+</td>
-                                            <td class="center ">1.8</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Netscape Navigator 9</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
                                         </tr><tr class="gradeA even">
-                                            <td class="sorting_1">Gecko</td>
-                                            <td class=" ">Mozilla 1.0</td>
-                                            <td class=" ">Win 95+ / OSX.1+</td>
-                                            <td class="center ">1</td>
-                                            <td class="center ">A</td>
+                                            <td class="auto-style3">Gecko</td>
+                                            <td class="auto-style1">Mozilla 1.0</td>
+                                            <td class="auto-style4">12/05/2010</td>
+                                            <td class="auto-style5">13/06/2011</td>
+                                            <td class="auto-style6">1</td>
+                                       
                                         </tr></tbody>
                                 </table><div class="row"><div class="col-sm-6"><div class="dataTables_info" id="dataTables-example_info" role="alert" aria-live="polite" aria-relevant="all">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_simple_numbers" id="dataTables-example_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="dataTables-example" tabindex="0"><a href="#">1</a></li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="#">2</a></li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="#">3</a></li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="#">4</a></li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="#">5</a></li><li class="paginate_button " aria-controls="dataTables-example" tabindex="0"><a href="#">6</a></li><li class="paginate_button next" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_next"><a href="#">Next</a></li></ul></div></div></div></div>
                             </div>
-                            
                         </div>
                     </div>
+                            -
                     <!--End Advanced Tables -->
                 </div>
-
+                       
 <%--                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                               Click  Launch Demo Modal
                             </button>--%>
-
             <%--           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -234,14 +301,9 @@ font-size: 16px;"><!-- Last access : 30 May 2014 &nbsp; --><a href="#" class="bt
                                     </div>
                                 </div>
                             </div>--%>
-                        
-
-
 
                     </div>
-                   
-                     
-                     
+
 
                 </div>
 
@@ -657,12 +719,10 @@ font-size: 16px;"><!-- Last access : 30 May 2014 &nbsp; --><a href="#" class="bt
                 </div>     
                  <!-- /. ROW  -->       --%>
                     
-            </div>
+            
              <!-- /. PAGE INNER  -->
          </div>
          <!-- /. PAGE WRAPPER  -->
-
-
 
         </div>
      <!-- /. WRAPPER  -->

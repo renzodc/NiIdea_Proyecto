@@ -6,7 +6,7 @@ using System.Web;
 
 namespace NiIdeaService.Persistencia
 {
-    public class ProyectoDAO : BaseDAO<Proyecto, int> 
+    public class ProyectoDAO : BaseDAO<Proyecto, int>
     {
     }
 }

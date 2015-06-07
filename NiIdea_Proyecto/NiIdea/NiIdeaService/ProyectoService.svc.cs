@@ -42,7 +42,7 @@ namespace NiIdeaService
 
         public Dominio.Proyecto ObtieneProyecto(int codigo_p)
         {
-            return ProyectoDAO.Obtener(codigo_p);  
+            return ProyectoDAO.Obtener(codigo_p);
         }
 
         public Dominio.Proyecto ModificaProyecto(int codigo_p, string nombre, DateTime fecha_ini, DateTime fecha_fin, string responsable, string observacion, int codigo_c, int estado, bool cierreProyecto, string detalleProyecto)
