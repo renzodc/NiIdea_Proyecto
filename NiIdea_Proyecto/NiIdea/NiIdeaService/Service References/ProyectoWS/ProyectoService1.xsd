@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:46114/ProyectoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NiIdeaService.Dominio" />
+  <xs:element name="CreaProyecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fecha_ini" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fecha_fin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="responsable" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="observacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="codigo_c" type="xs:int" />
+        <xs:element minOccurs="0" name="estado" type="xs:int" />
+        <xs:element minOccurs="0" name="cierreProyecto" type="xs:boolean" />
+        <xs:element minOccurs="0" name="detalleProyecto" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreaProyectoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NiIdeaService.Dominio" minOccurs="0" name="CreaProyectoResult" nillable="true" type="q1:Proyecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtieneProyecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo_p" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtieneProyectoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NiIdeaService.Dominio" minOccurs="0" name="ObtieneProyectoResult" nillable="true" type="q2:Proyecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificaProyecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo_p" type="xs:int" />
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fecha_ini" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="fecha_fin" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="responsable" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="observacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="codigo_c" type="xs:int" />
+        <xs:element minOccurs="0" name="estado" type="xs:int" />
+        <xs:element minOccurs="0" name="cierreProyecto" type="xs:boolean" />
+        <xs:element minOccurs="0" name="detalleProyecto" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificaProyectoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NiIdeaService.Dominio" minOccurs="0" name="ModificaProyectoResult" nillable="true" type="q3:Proyecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarProyecto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo_p" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarProyectoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarProyecto">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarProyectoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/NiIdeaService.Dominio" minOccurs="0" name="ListarProyectoResult" nillable="true" type="q4:ArrayOfProyecto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -9,3 +9,8 @@ C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServi
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\bin\Debug\RRHHServiceTest.pdb
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\obj\Debug\RRHHServiceTest.dll
 C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\obj\Debug\RRHHServiceTest.pdb
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\bin\Debug\RRHHServiceTest.dll.config
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\bin\Debug\RRHHServiceTest.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\bin\Debug\RRHHServiceTest.pdb
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\obj\Debug\RRHHServiceTest.dll
+D:\Documentos\Proyecto-Servicio\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\RRHHServiceTest\obj\Debug\RRHHServiceTest.pdb

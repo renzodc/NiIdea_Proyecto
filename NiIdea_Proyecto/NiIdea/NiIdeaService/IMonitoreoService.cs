@@ -13,13 +13,13 @@ namespace NiIdeaService
     public interface IMonitoreoService
     {
         [OperationContract]
-        Monitoreo CreaMonitoreo(DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2,int cantidad_no2, int cantidad_co2, int codigo_ct);
+        Monitoreo CreaMonitoreo(DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2,int cantidad_no2, int cantidad_co2, int codigo_ct,int codigo_p);
 
         [OperationContract]
         Monitoreo ObtieneMonitoreo(int codigo_m);
 
         [OperationContract]
-        Monitoreo ModificaMonitoreo(int codigo_m, DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct);
+        Monitoreo ModificaMonitoreo(int codigo_m, DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct, int codigo_p);
 
         [OperationContract]
         void EliminarMonitoreo(int codigo_m);

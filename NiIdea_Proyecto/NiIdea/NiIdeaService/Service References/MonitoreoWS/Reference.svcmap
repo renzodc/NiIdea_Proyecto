@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e8bd252e-b0b6-49ed-bc36-6d67bab20dc6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46114/MonitoreoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MonitoreoService.wsdl" MetadataType="Wsdl" ID="0203c196-2192-4ed8-b9ab-73630ef52d9c" SourceId="1" SourceUrl="http://localhost:46114/MonitoreoService.svc?wsdl" />
+    <MetadataFile FileName="MonitoreoService.xsd" MetadataType="Schema" ID="a0ea504e-fb40-4202-83b6-1fef3d1d127f" SourceId="1" SourceUrl="http://localhost:46114/MonitoreoService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MonitoreoService1.xsd" MetadataType="Schema" ID="e42c0cf3-6544-40e4-9239-15b2e170bee9" SourceId="1" SourceUrl="http://localhost:46114/MonitoreoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MonitoreoService.disco" MetadataType="Disco" ID="5936cec7-f13f-4c5e-b044-e6436b6c87ed" SourceId="1" SourceUrl="http://localhost:46114/MonitoreoService.svc?disco" />
+    <MetadataFile FileName="MonitoreoService2.xsd" MetadataType="Schema" ID="9aac2816-946b-4710-a8aa-af75ff2a8fb6" SourceId="1" SourceUrl="http://localhost:46114/MonitoreoService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

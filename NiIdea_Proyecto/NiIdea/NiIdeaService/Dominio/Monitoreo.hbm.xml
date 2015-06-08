@@ -13,6 +13,7 @@
     <property name="cantidad_no2" column="cantidad_no2" />
     <property name="cantidad_co2" column="cantidad_co2" />
     <property name="codigo_ct" column="codigo_ct" />
+  <property name="codigo_p" column="codigo_p" />
   </class>
 </hibernate-mapping>
 

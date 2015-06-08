@@ -29,5 +29,8 @@ namespace NiIdeaService.Dominio
 
         [DataMember]
         public int codigo_ct { get; set; }
+
+        [DataMember]
+        public int codigo_p { get; set; }
     }
 }
