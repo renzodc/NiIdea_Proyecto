@@ -1,0 +1,6 @@
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\obj\Debug\AplicacionServicio.csprojResolveAssemblyReference.cache
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\bin\Debug\AplicacionServicio.exe.config
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\bin\Debug\AplicacionServicio.exe
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\bin\Debug\AplicacionServicio.pdb
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\obj\Debug\AplicacionServicio.exe
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\AplicacionServicio\obj\Debug\AplicacionServicio.pdb

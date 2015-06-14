@@ -1,0 +1,6 @@
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\obj\Debug\SeguimientoMonitoreoCliente.csprojResolveAssemblyReference.cache
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\bin\Debug\SeguimientoMonitoreoCliente.exe.config
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\bin\Debug\SeguimientoMonitoreoCliente.exe
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\bin\Debug\SeguimientoMonitoreoCliente.pdb
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\obj\Debug\SeguimientoMonitoreoCliente.exe
+C:\Users\GLENN\Documents\GitHub\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\SeguimientoMonitoreoCliente\obj\Debug\SeguimientoMonitoreoCliente.pdb
