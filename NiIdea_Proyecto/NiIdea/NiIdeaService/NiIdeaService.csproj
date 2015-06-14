@@ -109,6 +109,7 @@
     <Content Include="MonitoreoService.svc" />
     <Content Include="Presentacion\ListarCierreProyecto.aspx" />
     <Content Include="Presentacion\ListarProyecto.aspx" />
+    <Content Include="Presentacion\Monitoreo.aspx" />
     <Content Include="Presentacion\RegistrarCotizacion.aspx" />
     <Content Include="Presentacion\RegistrarMonitoreo.aspx" />
     <Content Include="Presentacion\RegistrarProyecto.aspx" />
@@ -130,12 +131,43 @@
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
     <Content Include="assets\img\Thumbs.db" />
+    <Content Include="Presentacion\Ayso.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\npm.js" />
+    <None Include="Service References\MonitoreoWS\MonitoreoService.disco" />
+    <None Include="Service References\MonitoreoWS\configuration91.svcinfo" />
+    <None Include="Service References\MonitoreoWS\configuration.svcinfo" />
+    <Content Include="Service References\MonitoreoWS\NiIdeaService.MonitoreoWS.Monitoreo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\MonitoreoWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\ProyectoWS\NiIdeaService.ProyectoWS.Proyecto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\MonitoreoWS\MonitoreoService.wsdl" />
+    <None Include="Service References\MonitoreoWS\MonitoreoService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MonitoreoWS\MonitoreoService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MonitoreoWS\MonitoreoService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ProyectoWS\ProyectoService.disco" />
+    <None Include="Service References\ProyectoWS\configuration91.svcinfo" />
+    <None Include="Service References\ProyectoWS\configuration.svcinfo" />
+    <None Include="Service References\ProyectoWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -169,6 +201,13 @@
     <Compile Include="Persistencia\ProyectoDAO.cs" />
     <Compile Include="Persistencia\ResponsableDAO.cs" />
     <Compile Include="Persistencia\ServicioDAO.cs" />
+    <Compile Include="Presentacion\Ayso.Master.cs">
+      <DependentUpon>Ayso.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ayso.Master.designer.cs">
+      <DependentUpon>Ayso.Master</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\ListarCierreProyecto.aspx.cs">
       <DependentUpon>ListarCierreProyecto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -182,6 +221,13 @@
     </Compile>
     <Compile Include="Presentacion\ListarProyecto.aspx.designer.cs">
       <DependentUpon>ListarProyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Monitoreo.aspx.cs">
+      <DependentUpon>Monitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Monitoreo.aspx.designer.cs">
+      <DependentUpon>Monitoreo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\RegistrarCotizacion.aspx.cs">
       <DependentUpon>RegistrarCotizacion.aspx</DependentUpon>
@@ -210,6 +256,16 @@
     <Compile Include="RRHHService.svc.cs">
       <DependentUpon>RRHHService.svc</DependentUpon>
     </Compile>
+    <Compile Include="Service References\MonitoreoWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ProyectoWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
@@ -221,12 +277,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Service References\ProyectoWS\ProyectoService.wsdl" />
+    <None Include="Service References\ProyectoWS\ProyectoService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ProyectoWS\ProyectoService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ProyectoWS\ProyectoService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MonitoreoWS\" />
+    <WCFMetadataStorage Include="Service References\ProyectoWS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

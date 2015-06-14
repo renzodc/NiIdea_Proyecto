@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2735ba22-dbe5-4ac7-b03b-921bcb97b3c7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46114/ProyectoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProyectoService.xsd" MetadataType="Schema" ID="028201fc-c9dc-4c6e-bd99-4c0d168b5766" SourceId="1" SourceUrl="http://localhost:46114/ProyectoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProyectoService.wsdl" MetadataType="Wsdl" ID="80fc7744-78cc-4edb-a455-ecd74894476f" SourceId="1" SourceUrl="http://localhost:46114/ProyectoService.svc?wsdl" />
+    <MetadataFile FileName="ProyectoService1.xsd" MetadataType="Schema" ID="3853752a-f866-481e-ad66-14e724a9e035" SourceId="1" SourceUrl="http://localhost:46114/ProyectoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProyectoService.disco" MetadataType="Disco" ID="a1122fb8-c99b-4abe-bd75-9a7baa85f7a9" SourceId="1" SourceUrl="http://localhost:46114/ProyectoService.svc?disco" />
+    <MetadataFile FileName="ProyectoService2.xsd" MetadataType="Schema" ID="5c0c9366-6f71-4ad6-8fbf-723927b13daa" SourceId="1" SourceUrl="http://localhost:46114/ProyectoService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

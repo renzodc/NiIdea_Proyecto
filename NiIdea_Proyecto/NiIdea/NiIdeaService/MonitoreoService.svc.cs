@@ -21,7 +21,7 @@ namespace NiIdeaService
             }
         }
 
-        public Dominio.Monitoreo CreaMonitoreo(DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct)
+        public Dominio.Monitoreo CreaMonitoreo(DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct, int codigo_p)
         {
             Dominio.Monitoreo monitoreoACrear = new Dominio.Monitoreo()
             {
@@ -30,7 +30,8 @@ namespace NiIdeaService
                 cantidad_so2 = cantidad_so2,
                 cantidad_no2 = cantidad_no2,
                 cantidad_co2 = cantidad_co2,
-                codigo_ct = codigo_ct
+                codigo_ct = codigo_ct,
+                codigo_p = codigo_p
             };
             return MonitoreoDAO.Crear(monitoreoACrear);
         }
@@ -40,7 +41,7 @@ namespace NiIdeaService
             return MonitoreoDAO.Obtener(codigo_m);
         }
 
-        public Dominio.Monitoreo ModificaMonitoreo(int codigo_m, DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct)
+        public Dominio.Monitoreo ModificaMonitoreo(int codigo_m, DateTime fecha_ini, DateTime fecha_fin, int cantidad_so2, int cantidad_no2, int cantidad_co2, int codigo_ct, int codigo_p)
         {
             Dominio.Monitoreo monitoreoAModificar = new Dominio.Monitoreo()
             {
@@ -50,7 +51,8 @@ namespace NiIdeaService
                 cantidad_so2 = cantidad_so2,
                 cantidad_no2 = cantidad_no2,
                 cantidad_co2 = cantidad_co2,
-                codigo_ct = codigo_ct
+                codigo_ct = codigo_ct,
+                codigo_p = codigo_p
             };
             return MonitoreoDAO.Modificar(monitoreoAModificar);
         }
@@ -65,5 +67,7 @@ namespace NiIdeaService
         {
             return MonitoreoDAO.ListarTodos().ToList();
         }
+
+       
     }
 }
